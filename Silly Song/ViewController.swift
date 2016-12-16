@@ -8,8 +8,6 @@
 
 import UIKit
 
-
-
 let bananaFanaTemplate = [
     "<FULL_NAME>, <FULL_NAME>, Bo B<SHORT_NAME>",
     "Banana Fana Fo F<SHORT_NAME>",
@@ -75,8 +73,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func displayLyrics(_ sender: UITextField) {
-        print("tor aqui")
-        
         let fullName = nameField.text
 
         if let fullName = fullName {
